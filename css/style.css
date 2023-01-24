@@ -14,7 +14,6 @@
 }
 
 #container #btn1 {
-  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,15 +37,18 @@
 #container section {
   position: relative;
   width: 40%;
-  height: 60%;
-  top: 9em;
   margin: auto;
   padding: 2em;
   background-color: #232573;
   color: white;
 }
 
-#container #update {
-  line-height: 50px;
+#container div#update ul li {
+  list-style: none;
+  padding: 0.25em 0;
+}
+
+#container div#update ul li p {
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
